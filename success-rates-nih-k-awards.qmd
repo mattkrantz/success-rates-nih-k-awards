@@ -6,7 +6,7 @@ execute:
   warning: false
 ---
 
-The NIH provides [Success Rates](https://report.nih.gov/funding/nih-budget-and-spending-data-past-fiscal-years/success-rates) for Career Development Awards. Below, you will find interactive plots for Fiscal Years 2014-2023 and can analyze success rates by individual institute or by all for the primary extramural, mentored career development awards (K01, K08, K23, K99). These interactive plots were created using [Observable JS](https://quarto.org/docs/computations/ojs.html). You can download the publicly available [dataset](https://report.nih.gov/reportweb/web/displayreport?rId=551) from the NIH. You can also find a copy in the [data folder](https://github.com/mattkrantz/success-rates-nih-k-awards/tree/main/data) of this book's GitHub repository.
+The NIH provides [Success Rates](https://report.nih.gov/funding/nih-budget-and-spending-data-past-fiscal-years/success-rates) for Career Development Awards. Below, you will find interactive plots for Fiscal Years 2014-2023 and can analyze success rates by individual institute or by all for the primary extramural, mentored career development awards (K01, K08, K23, K99). These interactive plots were created using [Observable JS](https://quarto.org/docs/computations/ojs.html). You can download the publicly available [dataset](https://report.nih.gov/reportweb/web/displayreport?rId=551) from the NIH. You can also find a copy in the [data folder](https://github.com/mattkrantz/success-rates-nih-k-awards/tree/main/data) of the GitHub repository.
 
 ```{r}
 library(readxl)
